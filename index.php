@@ -1,7 +1,7 @@
 <!--Start include header-->
 <?php 
-    include('./dbConnection.php');
-    include('./mainInclude/header.php');
+    include('./dbConnection');
+    include('./mainInclude/header');
 ?>
 <!--End include header-->
 
@@ -119,7 +119,7 @@
 
     <!--Start contact us container-->
     <?php
-        include('./contact.php');
+        include('./contact');
     ?>
     <!--End Contact Us container-->
 
@@ -214,6 +214,6 @@
 
 <!--Start include footer-->
 <?php 
-    include('./mainInclude/footer.php')
+    include('./mainInclude/footer')
 ?>
 <!--End include footer-->
